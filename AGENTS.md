@@ -1,10 +1,12 @@
-<!-- LOVABLE:BEGIN -->
-> [!IMPORTANT]
-> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
-> published git history — force pushing, or rebasing/amending/squashing commits
-> that are already pushed — as it rewrites history on Lovable's side and the
-> user will likely lose their project history.
->
-> Commits you push to the connected branch sync back to Lovable and show up in
-> the editor, so keep the branch in a working state.
-<!-- LOVABLE:END -->
+# Maison Ember — Developer & Agent Guidelines
+
+## Project Architecture
+- **Framework**: TanStack Start with Vite & React 19
+- **Styling**: Tailwind CSS v4 + Motion
+- **Router**: TanStack Router (file-based routing in `src/routes/`)
+- **Backend / DB Integration**: Supabase client with offline localStorage fallback
+- **Assets**: High-resolution imagery in `src/assets/`
+
+## Key Rules
+- Maintain design aesthetics: luxurious, dark/ivory hearth-inspired warm palette with elegant typography.
+- Ensure all forms have resilient local fallbacks so the app remains 100% operable in offline and standalone modes.

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="emberGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C27835"/>
+      <stop offset="50%" stop-color="#E2A76F"/>
+      <stop offset="100%" stop-color="#F7D070"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#242120"/>
+      <stop offset="100%" stop-color="#141211"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with smooth rounded corners -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)"/>
+  <rect width="62" height="62" x="1" y="1" rx="15" stroke="#E2A76F" stroke-width="1.5" stroke-opacity="0.3"/>
+  
+  <!-- Stylized Ember Flame Emblem -->
+  <path d="M32 11C32 11 44 24.5 44 37C44 44.732 38.627 51 32 51C25.373 51 20 44.732 20 37C20 28.5 27 21.5 32 11Z" fill="url(#emberGrad)"/>
+  <!-- Inner Flame Negative Space -->
+  <path d="M32 27C32 27 38 33.5 38 39.5C38 43.09 35.314 46 32 46C28.686 46 26 43.09 26 39.5C26 35 29.5 31.8 32 27Z" fill="#1A1817"/>
+  <!-- Glowing Ember Core -->
+  <circle cx="32" cy="39.5" r="3.2" fill="#F7D070"/>
+</svg>
